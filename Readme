@@ -1,0 +1,29 @@
+npm install && npm run install
+npm run dev
+
+access frontend app at http://localhost:3000/
+access api via HTTP GET localhost:8888/shipments
+
+
+To keep within 2-3 hours of constrain set by myself, 
+here is the very simple basic solution that shows the user the shipments that's failed
+so that the manager could start trace by id and start contacting customers.
+
+
+The FE could definitely improve on things such as 
+1. adding filter to the table status column, adding more action buttons to help manager track those customers they have contacted. add pagination to reduce server load.
+2. headers and navigation to make prettier.
+3. organize files better, break down app into pieces if more api added
+4. add more tests to ensure
+
+
+
+For BE could definitely improve on things such as
+1. crediential storage
+2. rate and size limiting
+
+Further thoughts,
+with more api/data and time given, we could start to 
+1. automatically send emails/text to the customers regarding the shipment status. 
+2. push notification to manager and client if any shipment turn to failed status.
+
